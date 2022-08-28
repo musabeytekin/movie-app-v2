@@ -2,7 +2,7 @@
 
 İncelemek için:
 <br>
-<a href="https://mbcommercesite.netlify.app">İncele</a>
+<a href="https://mvieappv2.netlify.app">İncele</a>
 
 Proje taslak olarak hazırlanmıi olup gerçeği yansıtmamaktadır...
 
