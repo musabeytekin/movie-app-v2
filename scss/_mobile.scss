@@ -5,6 +5,27 @@
     html {
         font-size: 70%;
     }
-    
+
+    #showcase {
+
+        .input-group {
+            padding-right: 5vw;
+            padding-left: 5vw;
+
+            button {
+                width: 32% !important;
+            }
+        }
+
+
+    }
+}
+
+@media(max-width:400px) {
+
+    html {
+        font-size: 55%;
+    }
+
 
 }
