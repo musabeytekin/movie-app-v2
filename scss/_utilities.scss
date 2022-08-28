@@ -18,7 +18,21 @@
 }
 
 .section-title {
+    color: #fff;
     font-size: 3rem;
     font-weight: 800;
+}
+
+.gray-line {
+    height: .7rem;
+    background-color: #292826;
+    width: 100vw;
+}
+
+.red-line-short {
+    width: 10vw;
+    height: .5rem;
+    background-color: $secondary-color;
+    margin: 1rem auto;
 }
 

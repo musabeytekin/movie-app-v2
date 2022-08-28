@@ -13,7 +13,7 @@
             padding-left: 5vw;
 
             button {
-                width: 32% !important;
+                width: 32% ;
             }
         }
 
@@ -26,6 +26,14 @@
     html {
         font-size: 55%;
     }
-
-
 }
+
+// icon-boxes
+
+@media(max-width:768px) {
+
+   .info-box {
+        grid-template-columns: 1fr;
+   }
+}
+

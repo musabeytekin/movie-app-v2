@@ -23,10 +23,10 @@
 // navbar
 
 .navbar {
-
+    z-index: 5;
     width: 100%;
     height: 7vh;
-    position: fixed;
+    position: sticky;
     // background-color: $primary-color;
 
 
@@ -49,9 +49,11 @@
 
     .navbar-right {
         margin-right: 1rem;
+
         a {
             margin-left: .7rem;
         }
+
         .btn-login {
             border: 2px solid #fff;
             width: calc(6rem + 2px);
@@ -96,6 +98,7 @@
         .info-wrap {
             padding-right: 8vw;
             padding-left: 8vw;
+
             * {
                 margin-top: 1rem;
                 margin-bottom: 1.4rem;
@@ -112,14 +115,46 @@
             input {
                 color: black;
             }
+
             button {
                 width: 30%;
-                
+
                 border-top-right-radius: 5px;
                 border-bottom-right-radius: 5px;
                 border-left: 2px solid gray;
             }
         }
+
+    }
+}
+
+// info-boxes
+
+#info-boxes {
+
+    .info-box {
+        background-image: linear-gradient(to bottom right, #000, #333333);
+        height: 50vh;
+        padding: 5rem 7rem;
+      
+
+        .info-box-info {
+            .section-title {
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+
+            .info-bottom {
+                width: 40vw;
+                margin: 3rem auto;
+            }
+            p {
+                color: #e6e6e6;
+                padding: auto;
+            }
+        }
+
+        
 
     }
 }
