@@ -136,18 +136,21 @@
     background-position: center;
     background-size: cover;
 }
+
 .info-bg-2 {
     background: url("../img/junior.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .info-bg-3 {
     background: url("../img/lukas.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
 .info-bg-4 {
     background: url("../img/pasaric.jpg");
     background-repeat: no-repeat;
@@ -161,10 +164,12 @@
         position: relative;
         height: 50vh;
         padding: 5rem 7rem;
-      
+
 
         .info-box-info {
             position: sticky;
+
+            // top: 0;
             .section-title {
                 margin-bottom: 2rem;
                 text-align: center;
@@ -174,6 +179,7 @@
                 width: 40vw;
                 margin: 3rem auto;
             }
+
             p {
                 color: #e6e6e6;
                 padding: auto;
@@ -190,7 +196,21 @@
         height: 100%;
         background: linear-gradient(to bottom right, #000, rgba(3, 1, 1, 0.543));
     }
-
-
-    
 }
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    
+    .container div {
+        display: flex;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin: 0;
+        }
+    }
+}
+
+
