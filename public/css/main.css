@@ -3105,10 +3105,41 @@ textarea.form-control-lg {
   border-left: 2px solid gray;
 }
 
+.info-bg-1 {
+  background: url("../img/artem.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info-bg-2 {
+  background: url("../img/junior.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info-bg-3 {
+  background: url("../img/lukas.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info-bg-4 {
+  background: url("../img/pasaric.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 #info-boxes .info-box {
-  background-image: linear-gradient(to bottom right, #000, #333333);
+  position: relative;
   height: 50vh;
   padding: 5rem 7rem;
+}
+#info-boxes .info-box .info-box-info {
+  position: sticky;
 }
 #info-boxes .info-box .info-box-info .section-title {
   margin-bottom: 2rem;
@@ -3121,6 +3152,15 @@ textarea.form-control-lg {
 #info-boxes .info-box .info-box-info p {
   color: #e6e6e6;
   padding: auto;
+}
+#info-boxes .info-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #000, rgba(3, 1, 1, 0.543));
 }
 
 * {
