@@ -3221,7 +3221,7 @@ a {
 .gray-line {
   height: 0.7rem;
   background-color: #292826;
-  width: 100vw;
+  width: 100%;
 }
 
 .red-line-short {
